@@ -30,10 +30,19 @@ const person = {
 
 // functions
 const myfun = function() {
-    console.log("Hello World");
+    // console.log("Hello World");
 };
 
-console.log(typeof arr); // object
-console.log(typeof person); // object
-console.log(typeof myfun); // function
-console.log(typeof id); // symbol
+// console.log(typeof arr); // object
+// console.log(typeof person); // object
+// console.log(typeof myfun); // function
+// console.log(typeof id); // symbol
+
+
+
+
+//---------------------------MEMORY---------------------------//
+
+//STACK MEMORY (primitive data types are stored in stack memory)
+
+// HEAP MEMORY (non-primitive data types are stored in heap memory)
