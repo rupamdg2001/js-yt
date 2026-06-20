@@ -46,3 +46,24 @@ const myfun = function() {
 //STACK MEMORY (primitive data types are stored in stack memory)
 
 // HEAP MEMORY (non-primitive data types are stored in heap memory)
+
+let myvideo = "JSTutorial"; // stored in stack memory
+
+let myvideo2 = myvideo; // stored in stack memory
+
+myvideo2 = "PythonTutorial"; // stored in stack memory
+
+console.log(myvideo); // JSTutorial
+console.log(myvideo2); // JSTutorial
+
+let user1 = {
+    name: "John",
+    age: "30"
+};
+
+let user2 = user1; // stored in heap memory
+
+user2.name = "Peter"; // stored in heap memory
+
+console.log(user1.name); // Peter
+console.log(user2.name); // Peter
